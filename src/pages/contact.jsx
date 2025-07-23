@@ -2,10 +2,16 @@ import React, { useEffect, useState } from "react";
 import "./contact.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import desktopBg from "../assets/contact-desktop.png";
-import mobileBg from "../assets/contact_small_mobile1.png";
+import desktopBg from "../assets/contact-desktop.jpg";
+import mobileBg from "../assets/contact_small_mobile1.jpg";
 
 const ContactPage = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+
   const [backgroundImage, setBackgroundImage] = useState(desktopBg);
 
   useEffect(() => {

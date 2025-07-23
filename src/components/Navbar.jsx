@@ -30,27 +30,27 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto me-3 responsive-width d-flex justify-content-evenly">
             <li className="nav-item">
-              <Link className="nav-link nav-text" to="/">
+              <Link to="/" className="nav-link nav-text">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-text" to="/services">
+              <Link to="/services" className="nav-link nav-text">
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-text" to="/Work">
+              <Link to="/Work" className="nav-link nav-text">
                 Work
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-text" to="/about">
+              <Link to="/about" className="nav-link nav-text">
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link nav-text" to="/contact">
+              <Link to="/contact" className="nav-link nav-text">
                 Contact
               </Link>
             </li>
@@ -62,3 +62,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// logo.png

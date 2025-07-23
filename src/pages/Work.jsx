@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./Work.css";
-import workBanner from "../assets/ourwork.png";
+import workBanner from "../assets/ourwork.jpg";
 import workSample from "../assets/work-sample.webp";
-import brandImage from "../assets/Picture1.png"; // ✅ Make sure the image is here
+import brandImage from "../assets/Picture1.png";
 import retailImage from "../assets/Picture2.png";
 
 const Work = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />

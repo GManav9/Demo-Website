@@ -9,16 +9,15 @@ import "swiper/css/navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Home.css";
 
-import newspaperimage1 from "../assets/newspaperimage1.png";
-import radio1 from "../assets/radio1.png";
-import television from "../assets/television.png";
-import cinema from "../assets/cinema.png";
-import outofhome from "../assets/outofhome.png";
-import eventmanagement from "../assets/eventmanagement.png";
-import socialmediamarketing from "../assets/socialmediamarketing.png";
-import marketing from "../assets/marketing.png";
+import newspaperimage1 from "../assets/newspaperimage1.jpg";
+import radio1 from "../assets/radio1.jpg";
+import television from "../assets/television.jpg";
+import cinema from "../assets/cinema.jpg";
+import outofhome from "../assets/outofhome.jpg";
+import eventmanagement from "../assets/eventmanagement.jpg";
+import socialmediamarketing from "../assets/socialmediamarketing.jpg";
+import marketing from "../assets/marketing.jpg";
 
-import logo from "../assets/logo.png";
 import men from "../assets/men.jpg";
 import women from "../assets/women.jpg";
 
@@ -158,6 +157,11 @@ function Home() {
       setNavNext(nextRef.current);
     }
   }, [prevRef.current, nextRef.current]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />
@@ -318,7 +322,6 @@ function Home() {
               brand to new heights. Together, we’ll turn ideas into impact.
             </p>
 
-            
             <Link to="/about" className="btn btn-maroon mt-3 px-4 py-2">
               ABOUT US
             </Link>

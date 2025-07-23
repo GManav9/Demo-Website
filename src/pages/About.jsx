@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "./About.css";
-import about from "../assets/About.png"; // ✅ Correct import (lowercase 'about')
+import about from "../assets/About.jpg"; // ✅ Correct import (lowercase 'about')
 import exhibitionBooth from "../assets/exhibitionBooth.png"; // ✅ React-style import
 import { FaArrowRight } from "react-icons/fa";
 
@@ -18,6 +19,10 @@ import {
 } from "react-icons/fa";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Navbar />
