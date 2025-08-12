@@ -10,7 +10,7 @@
   background: linear-gradient(135deg, #fbc2eb, #a6c1ee, #f9f586);
   color: #301014;
   padding: 2rem;
-  margin: 2rem;
+  margin: 2rem auto;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
@@ -47,7 +47,7 @@
   border-color: #ffc107;
 }
 
-/* Hero section (no background image here, now handled via inline style in JSX) */
+/* Hero section */
 .contact-hero {
   width: 97%;
   margin-left: 1.5%;
@@ -58,5 +58,71 @@
   background-repeat: no-repeat;
 }
 
+/* RESPONSIVE STYLES */
+@media (max-width: 1024px) {
+  .section {
+    margin: 1.5rem;
+    padding: 1.5rem;
+  }
+}
 
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding: 2rem 1rem;
+  }
 
+  .section {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .contact-hero {
+    height: 400px;
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0;
+  }
+
+  form .row {
+    flex-direction: column;
+  }
+
+  form .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-wrapper {
+    padding: 1.5rem 1rem;
+  }
+
+  .section {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+
+  .contact-hero {
+    height: 300px;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p,
+  label {
+    font-size: 0.9rem;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 0.9rem;
+  }
+
+  iframe {
+    height: 250px !important;
+  }
+}
