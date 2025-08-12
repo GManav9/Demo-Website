@@ -21,10 +21,10 @@ const Footer = () => {
               creative excellence, and seamless execution across all channels.
             </p>
             <p className="footer-contact">
-              <FaEnvelope /> contact@krossoverr.com
+              <FaEnvelope /> krossoverrbrandsol@gmail.com
             </p>
             <p className="footer-contact">
-              <FaPhoneAlt /> +91 98765 43210
+              <FaPhoneAlt /> +91 70113 44154
             </p>
           </div>
 

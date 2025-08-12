@@ -328,12 +328,11 @@ function Home() {
           </div>
         </div>
       </section>
-
+{/* 
       <section className="client-review-section py-5">
         <div className="container text-center position-relative">
           <h2 className="mb-5 fw-bold text-primary">What Our Clients Say</h2>
 
-          {/* Prev button - visible only on lg and above */}
           <button
             ref={clientPrevRef}
             className="btn btn-outline-primary position-absolute top-50 start-0 translate-middle-y d-none d-lg-inline-flex"
@@ -343,7 +342,6 @@ function Home() {
             ←
           </button>
 
-          {/* Swiper Slider */}
           <Swiper
             modules={[Autoplay, Navigation]}
             spaceBetween={30}
@@ -372,7 +370,6 @@ function Home() {
             ))}
           </Swiper>
 
-          {/* Next button - visible only on lg and above */}
           <button
             ref={clientNextRef}
             className="btn btn-outline-primary position-absolute top-50 end-0 translate-middle-y d-none d-lg-inline-flex"
@@ -382,7 +379,7 @@ function Home() {
             →
           </button>
         </div>
-      </section>
+      </section> */}
 
       <section className="choose-us-section py-5">
         <div className="container">
@@ -425,7 +422,6 @@ function Home() {
                       height: "100%",
                     }}
                   >
-                    {/* FRONT SIDE */}
                     <div
                       className="flip-card-front icon-box h-100 d-flex flex-column justify-content-center align-items-center rounded-4"
                       style={{
