@@ -8,6 +8,7 @@ import exhibitionBooth from "../assets/exhibitionBooth.png"; // ✅ React-style 
 import { FaArrowRight } from "react-icons/fa";
 
 import clientLogoImage from "../assets/Picture3.png";
+<link rel="preload" as="image" href="/assets/About.jpg" />;
 
 import {
   FaStoreAlt,

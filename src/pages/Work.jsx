@@ -19,6 +19,7 @@ import slider3 from "../assets/campaign3.jpeg";
 import slider4 from "../assets/campaign4.jpeg";
 import slider5 from "../assets/campaign5.jpeg";
 // import slider6 from "../assets/campaign6.jpeg";
+<link rel="preload" as="image" href="/assets/ourwork.jpg" />;
 
 const Work = () => {
   useEffect(() => {
