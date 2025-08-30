@@ -125,9 +125,6 @@
   }
 }
 
-
-
-
 /* contact css */
 
 .contact-section {
@@ -327,5 +324,103 @@
 
   .grow-container p {
     font-size: 1rem;
+  }
+}
+
+/* ---------- Campaign Slider ---------- */
+.work-slider {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+  text-align: center;
+  position: relative;
+}
+
+.slider-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.custom-swiper {
+  padding: 1rem 0;
+}
+
+.slider-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.slider-image:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation Buttons */
+.custom-prev,
+.custom-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* vertical center */
+  background: white;
+  color: #333;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 20; /* ensure it's above images */
+}
+
+.custom-prev:hover,
+.custom-next:hover {
+  background: #007bff;
+  color: white;
+}
+
+.custom-prev {
+  left: -70px; /* slider ke bahar left */
+}
+
+.custom-next {
+  right: -70px; /* slider ke bahar right */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-prev {
+    left: -50px;
+  }
+  .custom-next {
+    right: -50px;
+  }
+  .slider-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .custom-prev,
+  .custom-next {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  .slider-image {
+    height: 180px;
   }
 }

@@ -7,6 +7,19 @@ import workSample from "../assets/work-sample.webp";
 import brandImage from "../assets/Picture1.png";
 import retailImage from "../assets/Picture2.png";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import slider1 from "../assets/campaign1.jpeg";
+import slider2 from "../assets/campaign2.jpeg";
+import slider3 from "../assets/campaign3.jpeg";
+import slider4 from "../assets/campaign4.jpeg";
+import slider5 from "../assets/campaign5.jpeg";
+// import slider6 from "../assets/campaign6.jpeg";
+
 const Work = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -123,6 +136,45 @@ const Work = () => {
           <a href="/contact" className="grow-btn">
             Contact Us
           </a>
+        </div>
+      </section>
+
+      <section className="work-slider">
+        <h2 className="slider-title">Our Campaign Gallery</h2>
+
+        <div className="slider-wrapper">
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={20}
+            slidesPerView={3}
+            navigation={{
+              nextEl: ".custom-next",
+              prevEl: ".custom-prev",
+            }}
+            pagination={false}
+            autoplay={{ delay: 3000 }}
+            loop={true}
+            breakpoints={{
+              320: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+            className="custom-swiper"
+          >
+            {[slider1, slider2, slider3, slider4, slider5].map((img, i) => (
+              <SwiperSlide key={i}>
+                <img
+                  src={img}
+                  alt={`Campaign ${i + 1}`}
+                  className="slider-image"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+
+          {/* Custom Navigation Buttons */}
+          <div className="custom-prev">‹</div>
+          <div className="custom-next">›</div>
         </div>
       </section>
 
