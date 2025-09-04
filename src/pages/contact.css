@@ -106,17 +106,16 @@
     margin: 0.5rem;
     padding: 1rem;
   }
-
   .contact-hero {
-    width: 97% !important;
-    height: 100vh !important; /* tumne bola height kum nahi karni */
-    margin: 0 auto !important; /* center me karega */
-    padding: 0 !important;
-    border-radius: 0;
-    background-size: cover;
+    width: 95%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("yourImage.jpg");
+    background-size: 115% 100%; /* poora stretch */
     background-position: center;
     background-repeat: no-repeat;
   }
+
   h3 {
     font-size: 1.25rem;
   }
