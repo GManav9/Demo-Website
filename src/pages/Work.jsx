@@ -18,11 +18,10 @@ import slider2 from "../assets/campaign2.jpeg";
 import slider3 from "../assets/campaign3.jpeg";
 import slider4 from "../assets/campaign4.jpeg";
 import slider5 from "../assets/campaign5.jpeg";
-import retailBranding from "../assets/retailBranding.png";
-import eventsExecution from "../assets/eventsExecution.png";
-import goToMarket from "../assets/goToMarket.png";
-import digitalMarketing from "../assets/digitalMarketing.png"; 
-
+import retailBranding from "../assets/retailBranding.jpg";
+import eventsExecution from "../assets/eventsExecution.jpg";
+import goToMarket from "../assets/goToMarket.jpg";
+import digitalMarketing from "../assets/digitalMarketing.jpg";
 
 // import slider6 from "../assets/campaign6.jpeg";
 <link rel="preload" as="image" href="/assets/ourwork.jpg" />;
@@ -156,7 +155,7 @@ const Work = () => {
         </div>
 
         {/* ✅ Block — Digital Marketing & Promotions (Image Right, Text Left) */}
-        <div className="work-split-container reverse" id="Digital" >
+        <div className="work-split-container reverse" id="Digital">
           <div className="work-split-image">
             <img
               src={digitalMarketing}
