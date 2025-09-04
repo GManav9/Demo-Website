@@ -328,6 +328,7 @@
 }
 
 /* ---------- Campaign Slider ---------- */
+/* ---------- Campaign Slider ---------- */
 .work-slider {
   padding: 4rem 2rem;
   background: #f9f9f9;
@@ -370,7 +371,7 @@
 .custom-next {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%); /* vertical center */
+  transform: translateY(-50%);
   background: white;
   color: #333;
   font-size: 2rem;
@@ -383,7 +384,7 @@
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  z-index: 20; /* ensure it's above images */
+  z-index: 20;
 }
 
 .custom-prev:hover,
@@ -393,34 +394,66 @@
 }
 
 .custom-prev {
-  left: -70px; /* slider ke bahar left */
+  left: -70px;
 }
 
 .custom-next {
-  right: -70px; /* slider ke bahar right */
+  right: -70px;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* ---------- Responsive Fix ---------- */
+@media (max-width: 992px) {
   .custom-prev {
-    left: -50px;
+    left: -40px;
   }
   .custom-next {
-    right: -50px;
+    right: -40px;
   }
   .slider-image {
-    height: 200px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-prev,
+  .custom-next {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    top: unset;
+    bottom: -50px; /* ✅ Arrows ko neeche le aaya */
+    transform: none;
+  }
+
+  .custom-prev {
+    left: 35%;
+  }
+  .custom-next {
+    right: 35%;
+  }
+
+  .slider-image {
+    height: 250px;
   }
 }
 
 @media (max-width: 480px) {
   .custom-prev,
   .custom-next {
-    width: 40px;
-    height: 40px;
-    font-size: 1.5rem;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    bottom: -45px;
   }
+
+  .custom-prev {
+    left: 30%;
+  }
+  .custom-next {
+    right: 30%;
+  }
+
   .slider-image {
-    height: 180px;
+    height: 250px;
   }
 }

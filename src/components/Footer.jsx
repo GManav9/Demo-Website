@@ -76,7 +76,10 @@ const Footer = () => {
                   href="https://instagram.com/Krossoverr_Brand_solutions"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
+                >
+                  <FaInstagram />
+                  Instagram
+                </a>
               </li>
               <li>
                 <a href="#">
@@ -103,7 +106,11 @@ const Footer = () => {
             <a href="#">
               <FaFacebookF />
             </a>
-            <a href="#">
+            <a
+              href="https://instagram.com/Krossoverr_Brand_solutions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaInstagram />
             </a>
             <a href="#">

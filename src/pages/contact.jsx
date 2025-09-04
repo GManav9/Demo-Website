@@ -6,11 +6,9 @@ import desktopBg from "../assets/contact-desktop.jpg";
 import mobileBg from "../assets/contact_small_mobile1.jpg";
 
 const ContactPage = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-
 
   const [backgroundImage, setBackgroundImage] = useState(desktopBg);
 
@@ -196,7 +194,7 @@ const ContactPage = () => {
           >
             <iframe
               title="KROSSOVERR Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1754.1355444939882!2d77.19915065803589!3d28.549812726519717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2658673343b%3A0xdd09cc934c6d6b1a!2sC-5%2F27%2C%20SDA%2C%20New%20Delhi%2C%20Delhi%20110016%2C%20India!5e0!3m2!1sen!2sus!4v1717210670585!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.461105372554!2d77.39371457617648!3d28.5859407361937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef717ea54887%3A0xdb2fcc1774686d65!2sSector%20120%2C%20Noida%2C%20Uttar%20Pradesh%20201316!5e0!3m2!1sen!2sin!4v1757006843175!5m2!1sen!2sin"
               width="100%"
               height="400"
               style={{ border: 0 }}

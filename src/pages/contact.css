@@ -77,10 +77,14 @@
   }
 
   .contact-hero {
-    height: 400px;
-    width: 100%;
-    margin-left: 0;
+    width: 100% !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
     border-radius: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   form .row {
@@ -104,9 +108,15 @@
   }
 
   .contact-hero {
-    height: 300px;
+    width: 100% !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-
   h3 {
     font-size: 1.25rem;
   }
