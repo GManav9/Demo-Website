@@ -18,6 +18,12 @@ import slider2 from "../assets/campaign2.jpeg";
 import slider3 from "../assets/campaign3.jpeg";
 import slider4 from "../assets/campaign4.jpeg";
 import slider5 from "../assets/campaign5.jpeg";
+import retailBranding from "../assets/retailBranding.png";
+import eventsExecution from "../assets/eventsExecution.png";
+import goToMarket from "../assets/goToMarket.png";
+import digitalMarketing from "../assets/digitalMarketing.png"; 
+
+
 // import slider6 from "../assets/campaign6.jpeg";
 <link rel="preload" as="image" href="/assets/ourwork.jpg" />;
 
@@ -87,6 +93,86 @@ const Work = () => {
               personalized notes, we design memorable unboxing experiences for
               new employees, clients, and partners. It’s not just a gift; it’s
               your brand story delivered with style.
+            </p>
+          </div>
+        </div>
+
+        {/* ✅ Block 3 — Retail Branding & Activations (Image Left, Text Right) */}
+        <div className="work-split-container">
+          <div className="work-split-image">
+            <img src={retailBranding} alt="Retail Branding Activation" />
+          </div>
+          <div className="work-split-content">
+            <h5>RETAIL BRANDING & ACTIVATIONS</h5>
+            <h2>Transforming Retail Spaces</h2>
+            <p>
+              We create impactful retail branding experiences that connect with
+              customers directly where they shop. From storefront displays and
+              in-store activations to eye-catching POS materials, our solutions
+              drive engagement and boost visibility. Every element is designed
+              to make your brand stand out in the retail environment.
+            </p>
+          </div>
+        </div>
+
+        {/* ✅ Block 4 — Events & Execution (Image Right, Text Left) */}
+        <div className="work-split-container reverse">
+          <div className="work-split-image">
+            <img src={eventsExecution} alt="Events & Execution" />
+          </div>
+          <div className="work-split-content">
+            <h5>EVENTS & EXECUTION</h5>
+            <h2>Flawless Event Management</h2>
+            <p>
+              From concept to execution, we deliver high-impact events that
+              leave lasting impressions. Whether it’s product launches,
+              conferences, or cultural activations, our team ensures seamless
+              planning, captivating experiences, and end-to-end execution with
+              precision.
+            </p>
+          </div>
+        </div>
+
+        {/* ✅ Block — Go to Market Strategies (Image Left, Text Right) */}
+        <div className="work-split-container">
+          <div className="work-split-image">
+            <img
+              src={goToMarket}
+              alt="Go to Market Strategies presentation"
+              loading="lazy"
+            />
+          </div>
+          <div className="work-split-content">
+            <h5>GO TO MARKET</h5>
+            <h2>Go to Market Strategies</h2>
+            <p>
+              Product launch se pehle se lekar scale-up tak — hum market
+              research, positioning, pricing, channel planning aur campaign
+              rollout ko ek cohesive roadmap me execute karte hain. Target
+              audience ke hisaab se messaging, media mix aur POS support design
+              karke ROI-driven GTM deliver karte hain.
+            </p>
+          </div>
+        </div>
+
+        {/* ✅ Block — Digital Marketing & Promotions (Image Right, Text Left) */}
+        <div className="work-split-container reverse" id="Digital" >
+          <div className="work-split-image">
+            <img
+              src={digitalMarketing}
+              alt="Digital Marketing & Promotions"
+              loading="lazy"
+            />
+          </div>
+          <div className="work-split-content">
+            <h5>DIGITAL MARKETING</h5>
+            <h2>Creative Promotions</h2>
+            <p>
+              Driving engagement through digital-first campaigns — from social
+              media creatives and ad campaigns to influencer collaborations and
+              performance marketing. We craft visually compelling and
+              ROI-focused promotions that put your brand in the spotlight and
+              connect with the right audience.
             </p>
           </div>
         </div>

@@ -311,11 +311,10 @@ function Home() {
               the latest trends while staying true to your core values.
             </p>
             <p>
-              Since 1985, we’ve proudly supported countless businesses in
-              building their presence through personalized service and unmatched
-              creativity. Our expertise spans traditional and digital mediums,
-              ensuring your message is heard loud and clear across every
-              platform.
+              we’ve proudly supported countless businesses in building their
+              presence through personalized service and unmatched creativity.
+              Our expertise spans traditional and digital mediums, ensuring your
+              message is heard loud and clear across every platform.
             </p>
             <p>
               Let Krossoverr Brand Solutions be the partner that propels your
@@ -328,7 +327,7 @@ function Home() {
           </div>
         </div>
       </section>
-{/* 
+      {/* 
       <section className="client-review-section py-5">
         <div className="container text-center position-relative">
           <h2 className="mb-5 fw-bold text-primary">What Our Clients Say</h2>

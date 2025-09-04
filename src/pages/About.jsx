@@ -76,7 +76,7 @@ const About = () => {
 
       {/* Offering Section */}
       <section className="offerings-section">
-        <h2 className="offerings-title">We Are Offerings</h2>
+        <h2 className="offerings-title">Our Services</h2>
         <div className="offerings-container">
           <ul className="offerings-column">
             <li>
@@ -134,7 +134,7 @@ const About = () => {
       </section>
 
       {/* services-grid-section */}
-      <section className="services-grid-section">
+      {/* <section className="services-grid-section">
         <h2 className="services-title">Our Services</h2>
         <div className="services-grid">
           <div className="service-item">
@@ -162,7 +162,7 @@ const About = () => {
             <span>Shop Branding</span>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Client Logos Section */}
       <section className="client-logos-section">

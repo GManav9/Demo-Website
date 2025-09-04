@@ -7,6 +7,7 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -33,16 +34,16 @@ const Footer = () => {
             <h5 className="footer-heading">Quick Links</h5>
             <ul className="footer-links">
               <li>
-                <a href="#services">Services</a>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <a href="#choose">Why Choose Us</a>
+                <Link to="/work">Work</Link>
               </li>
               <li>
-                <a href="#reviews">Testimonials</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -52,16 +53,16 @@ const Footer = () => {
             <h5 className="footer-heading">Our Expertise</h5>
             <ul className="footer-links">
               <li>
-                <a href="#">Digital Marketing</a>
+                <Link to="/services">Digital Marketing</Link>
               </li>
               <li>
-                <a href="#">Events & Activations</a>
+                <Link to="/services">Events & Activations</Link>
               </li>
               <li>
-                <a href="#">Retail Branding</a>
+                <Link to="/services">Retail Branding</Link>
               </li>
               <li>
-                <a href="#">Corporate Gifting</a>
+                <Link to="/services">Corporate Gifting</Link>
               </li>
             </ul>
           </div>
@@ -71,9 +72,11 @@ const Footer = () => {
             <h5 className="footer-heading">Follow Us</h5>
             <ul className="footer-links footer-social-list">
               <li>
-                <a href="#">
-                  <FaInstagram className="me-2" /> Instagram
-                </a>
+                <a
+                  href="https://instagram.com/Krossoverr_Brand_solutions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
               </li>
               <li>
                 <a href="#">
