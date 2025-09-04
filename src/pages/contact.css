@@ -108,9 +108,9 @@
   }
 
   .contact-hero {
-    width: 100% !important;
-    height: 100vh !important;
-    margin: 0 !important;
+    width: 97% !important;
+    height: 100vh !important; /* tumne bola height kum nahi karni */
+    margin: 0 auto !important; /* center me karega */
     padding: 0 !important;
     border-radius: 0;
     background-size: cover;
