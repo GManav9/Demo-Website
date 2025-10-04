@@ -21,9 +21,14 @@ const Footer = () => {
               We craft powerful brand experiences with strategic thinking,
               creative excellence, and seamless execution across all channels.
             </p>
-            <p className="footer-contact">
-              <FaEnvelope /> krossoverrbrandsol@gmail.com
-            </p>
+            <a
+              href="mailto:info@Krossoverr.com"
+              className="text-decoration-none"
+            >
+              <p className="footer-contact">
+                <FaEnvelope /> info@Krossoverr.com
+              </p>
+            </a>
             <p className="footer-contact">
               <FaPhoneAlt /> +91 70113 44154
             </p>

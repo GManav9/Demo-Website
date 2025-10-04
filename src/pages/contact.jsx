@@ -93,10 +93,10 @@ const ContactPage = () => {
                   ></i>
                   <strong>Email:</strong>{" "}
                   <a
-                    href="mailto:krossoverrbrandsol@gmail.com"
+                    href="mailto:info@Krossoverr.com"
                     style={{ color: "#5e2d79" }}
                   >
-                    krossoverrbrandsol@gmail.com
+                    info@Krossoverr.com
                   </a>
                 </p>
               </div>
