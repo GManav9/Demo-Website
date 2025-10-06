@@ -21,13 +21,6 @@ import marketing from "../assets/marketing.jpg";
 import men from "../assets/men.jpg";
 import women from "../assets/women.jpg";
 
-// import logo1 from "../assets/client1.png";
-// import logo2 from "../assets/client2.png";
-// import logo3 from "../assets/client3.png";
-// import logo4 from "../assets/client4.png";
-// import logo5 from "../assets/client5.png";
-// import logo6 from "../assets/client6.jpg";
-
 import logo1 from "../assets/Untitled-1.png";
 import logo2 from "../assets/Untitled-2.png";
 import logo3 from "../assets/Untitled-3.png";
@@ -48,6 +41,7 @@ import logo17 from "../assets/Untitled-17.png";
 import logo18 from "../assets/Untitled-18.png";
 import logo19 from "../assets/Untitled-19.png";
 import logo20 from "../assets/Untitled-20.png";
+import SolarSquarelogo from "../assets/SolarSquarelogo.jpg";
 
 import Footer from "../components/Footer";
 import Krossoverr2png from "../assets/Krossoverr2png.png";
@@ -327,58 +321,6 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* 
-      <section className="client-review-section py-5">
-        <div className="container text-center position-relative">
-          <h2 className="mb-5 fw-bold text-primary">What Our Clients Say</h2>
-
-          <button
-            ref={clientPrevRef}
-            className="btn btn-outline-primary position-absolute top-50 start-0 translate-middle-y d-none d-lg-inline-flex"
-            style={{ zIndex: 10 }}
-            aria-label="Previous Review"
-          >
-            ←
-          </button>
-
-          <Swiper
-            modules={[Autoplay, Navigation]}
-            spaceBetween={30}
-            slidesPerView={1}
-            loop={true}
-            autoplay={{ delay: 5000, disableOnInteraction: false }}
-            speed={1000}
-            navigation={{ prevEl: clientNavPrev, nextEl: clientNavNext }}
-            className="client-review-swiper"
-          >
-            {reviews.map((review, index) => (
-              <SwiperSlide key={index}>
-                <div
-                  className="review-card text-center mx-auto p-4 shadow-sm rounded"
-                  style={{ maxWidth: "700px" }}
-                >
-                  <FaQuoteLeft
-                    className="quote-icon mb-3 text-primary"
-                    size={40}
-                  />
-                  <p className="review-text fst-italic">"{review.review}"</p>
-                  <h5 className="mt-4 fw-bold">{review.name}</h5>
-                  <p className="text-muted">{review.role}</p>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-
-          <button
-            ref={clientNextRef}
-            className="btn btn-outline-primary position-absolute top-50 end-0 translate-middle-y d-none d-lg-inline-flex"
-            style={{ zIndex: 10 }}
-            aria-label="Next Review"
-          >
-            →
-          </button>
-        </div>
-      </section> */}
 
       <section className="choose-us-section py-5">
         <div className="container">
@@ -489,6 +431,7 @@ function Home() {
                 logo1,
                 logo2,
                 logo3,
+                SolarSquarelogo,
                 logo4,
                 logo5,
                 logo6,
